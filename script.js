@@ -13,7 +13,7 @@ function firstNonRepeatedChar(str) {
 		}
     }
 
-	for(let x of obj){
+	for(let x in obj){
 		if(obj[x] ==1)
 		{
 			return x;
